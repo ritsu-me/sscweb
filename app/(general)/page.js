@@ -20,10 +20,10 @@ export default function Home() {
             <a href="#biology">🐡生物班</a>
           </div>
           <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
-            <a href="">🖥電脳班</a>
+            <a href="#techs">🖥電脳班</a>
           </div>
           <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
-            <a href="">🧪化学班</a>
+            <a href="#chemical">🧪化学班</a>
           </div>
           <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
             <a href="">📡無線班</a>
@@ -65,7 +65,44 @@ export default function Home() {
             </div>
             <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
               生物班では主に以下のような活動をしています。
-              <br />- 水槽の掃除
+              <br />
+              ・水槽の掃除
+              <br />
+              ・魚類やその他動物、昆虫類の飼育
+              <br />
+              ・年数回の野外フィールドワークでの観察、採集活動
+            </div>
+            <div
+              className="row-span-1 text-center text-5xl font-body font-bold"
+              id="techs"
+            >
+              電脳班
+            </div>
+            <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
+              電脳班では主に以下のような活動をしています。
+              <br />
+              ・ゲーム開発、プログラミング等
+              <br />
+              ・3Dモデリング
+              <br />
+              ・自作PCの製作
+              <br />
+              ・レールガンの製作、射出実験
+            </div>
+            <div
+              className="row-span-1 text-center text-5xl font-body font-bold"
+              id="chemical"
+            >
+              化学班
+            </div>
+            <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
+              化学班では主に以下のような活動をしています。
+              <br />
+              ・文化祭恒例の演示実験
+              <br />
+              ・年数回の実験
+              <br />
+              ・年数回の野外フィールドワークでの観察、採集活動
             </div>
           </div>
         </div>
