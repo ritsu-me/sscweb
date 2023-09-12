@@ -16,19 +16,19 @@ export default function Home() {
           <div className="row-span-1 p-1 gap-3 text-center font-extrabold text-4xl">
             活動案内
           </div>
-          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-2xl transition duration-500">
-            <a href="">🐡生物班</a>
+          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
+            <a href="#biology">🐡生物班</a>
           </div>
-          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-2xl transition duration-500">
+          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
             <a href="">🖥電脳班</a>
           </div>
-          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-2xl transition duration-500">
+          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
             <a href="">🧪化学班</a>
           </div>
-          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-2xl transition duration-500">
+          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
             <a href="">📡無線班</a>
           </div>
-          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-2xl transition duration-500">
+          <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
             <a href="">🐁標本班</a>
           </div>
         </div>
@@ -57,9 +57,15 @@ export default function Home() {
         </div>
         <div className="col-span-8 grid-rows-none">
           <div className="grid-rows-none">
-            <div className="row-span-1">生物班</div>
-            <div className="row-span-2">
+            <div
+              className="row-span-1 text-center text-5xl font-body font-bold"
+              id="biology"
+            >
+              生物班
+            </div>
+            <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
               生物班では主に以下のような活動をしています。
+              <br />- 水槽の掃除
             </div>
           </div>
         </div>
@@ -69,5 +75,10 @@ export default function Home() {
       </div>
     </>
   );
+
+
+
+
+
 
 }
