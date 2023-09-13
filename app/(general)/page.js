@@ -102,7 +102,7 @@ export default function Home() {
               <br />
               ・年数回の実験
               <br />
-              ・年数回の野外フィールドワークでの観察、採集活動
+              ・本校理科化学分野への薬品の貸し出し
             </div>
           </div>
         </div>
