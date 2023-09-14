@@ -26,10 +26,10 @@ export default function Home() {
             <a href="#chemical">🧪化学班</a>
           </div>
           <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
-            <a href="">📡無線班</a>
+            <a href="#radio">📡無線班</a>
           </div>
           <div className="row-span-1 p-1 m-3 gap-3 text-center font-semibold bg-gray-200 border-2 border-transparent hover:border-indigo-500 rounded-2xl text-3xl transition duration-500">
-            <a href="">🐁標本班</a>
+            <a href="#biopsy">🐁標本班</a>
           </div>
         </div>
         <div className="col-span-3 rounded-2xl font-body grid-rows-none">
@@ -56,9 +56,9 @@ export default function Home() {
           </post>
         </div>
         <div className="col-span-8 grid-rows-none">
-          <div className="grid-rows-none">
+          <div className="grid-rows-3">
             <div
-              className="row-span-1 text-center text-5xl font-body font-bold"
+              className="row-span-1 text-center text-5xl font-body font-bold my-5"
               id="biology"
             >
               生物班
@@ -72,8 +72,10 @@ export default function Home() {
               <br />
               ・年数回の野外フィールドワークでの観察、採集活動
             </div>
+          </div>
+          <div className="grid-rows-3">
             <div
-              className="row-span-1 text-center text-5xl font-body font-bold"
+              className="row-span-1 text-center text-5xl font-body font-bold my-5"
               id="techs"
             >
               電脳班
@@ -81,16 +83,18 @@ export default function Home() {
             <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
               電脳班では主に以下のような活動をしています。
               <br />
-              ・ゲーム開発、プログラミング等
+              ・C#やPython、JavaScriptによるソフト開発
               <br />
-              ・3Dモデリング
+              ・Blenderでの3Dモデリング
               <br />
-              ・自作PCの製作
+              ・Unityでのゲーム制作
               <br />
-              ・レールガンの製作、射出実験
+              ・自作PCの組み立て、運用
             </div>
+          </div>
+          <div className="grid-rows-3">
             <div
-              className="row-span-1 text-center text-5xl font-body font-bold"
+              className="row-span-1 text-center text-5xl font-body font-bold my-5"
               id="chemical"
             >
               化学班
@@ -98,11 +102,41 @@ export default function Home() {
             <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
               化学班では主に以下のような活動をしています。
               <br />
-              ・文化祭恒例の演示実験
+              ・文化祭での演示実験
               <br />
-              ・年数回の実験
+              ・年数回の参加型化学実験
               <br />
-              ・本校理科化学分野への薬品の貸し出し
+              ・本校化学科への薬品の貸し出し
+            </div>
+          </div>
+          <div className="grid-rows-3">
+            <div
+              className="row-span-1 text-center text-5xl font-body font-bold my-5"
+              id="radio"
+            >
+              無線班
+            </div>
+            <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
+              無線班では主に以下のような活動をしています。
+              <br />
+              ・校外のアマチュア無線コンテストへの参加
+              <br />
+              ・アマチュア無線文化の存続、維持、継承
+              <br />
+              ・本校の緊急時通信手段のとしての訓練、整備
+            </div>
+          </div>
+          <div className="grid-rows-3">
+            <div
+              className="row-span-1 text-center text-5xl font-body font-bold my-5"
+              id="biopsy"
+            >
+              標本班
+            </div>
+            <div className="row-span-2 text-center bg-gray-200 rounded-2xl p-5 m-3 font-body text-2xl">
+              標本班では主に以下のような活動をしています。
+              <br />
+              ・活動なんかしてるわけねぇだろ
             </div>
           </div>
         </div>
